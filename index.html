@@ -1,0 +1,103 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case Study Between Microsoft Azure and Mobilenet Image Identification</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+  
+</head>
+
+<body>
+    <section class="azure">
+        <h1>Microsoft Azure</h1>
+        <h2>Microsoft Azure, commonly referred to as Azure (/ˈæʒər/), is a cloud computing service created by Microsoft
+            for building, testing, deploying, and managing applications and services through Microsoft-managed data
+            centers. It provides software as a service (SaaS), platform as a service (PaaS) and infrastructure as a
+            service (IaaS) and supports many different programming languages, tools, and frameworks, including both
+            Microsoft-specific and third-party software and systems.
+
+            Azure, announced at Microsoft's Professional Developers Conference (PDC) in October 2008, went by the
+            internal project codename "Project Red Dog", and formally released in February 2010, as Windows Azure
+            before being renamed to Microsoft Azure on March 25, 2014.
+
+        </h2>
+    </section>
+
+    <section class="azure">
+        <h1>Mobilenet Image Identification</h1>
+        <h2>Mobilenet is an image identification app with over 1.3 million photos trained to get an accurate answer.
+        </h2>
+    </section>
+
+    <section>
+        <center>
+            <div class="col-xs-12 header_div">
+                <h1> Case Study of Microsoft Azure and Mobilenet Image Identification<img src="logo.gif"></h1>
+            </div>
+            <ol id="ol">
+
+                <li>Headphones <img class="img" src="download.jpg"> </li>
+                <span class="azure">Headphones</span>
+                <span class="mobilenet"> Wireless Headphones</span>
+
+                <li>Blue Bottle <img class="img" src="download (1).jpg"> </li>
+                <span class="azure">Blue Bottle</span>
+                <span class="mobilenet"> Blue Water Bottle</span>
+                <li>Pink Bottle <img class="img" src="MINJH4P0IU5C3.jpg"> </li>
+                <span class="azure">Pink Bottle</span>
+                <span class="mobilenet"> Pink Water Battle</span>
+                <li>Blue Pen <img class="img" src="blue-ball-pen-500x500.jpg"> </li>
+                <span class="azure">Blue Pen</span>
+                <span class="mobilenet"> Blue Ball Pen</span>
+                <li>Remote <img class="img" src="1100-1.jpg"> </li>
+                <span class="azure">Remote</span>
+                <span class="mobilenet"> Television Remote</span>
+                <li>Plastic Box <img class="img"
+                        src="sockerbit-storage-box-with-lid-light-blue__0711184_pe728053_s5.webp"> </li>
+                <span class="azure">Box</span>
+                <span class="mobilenet"> Plastic Box</span>
+                <li>Bag <img class="img" src="81IiFRUxeWL._SL1500_.jpg"> </li>
+                <span class="azure">Bag</span>
+                <span class="mobilenet"> Black Bag</span>
+                <li>Blue Phone <img class="img" src="MY1F2.jpg"> </li>
+                <span class="azure">Blue Phone</span>
+                <span class="mobilenet"> Blue Phone Case</span>
+                <li>Black Phone <img class="img" src="download (2).jpg"> </li>
+                <span class="azure">Black Phone</span>
+                <span class="mobilenet"> Black Phone Case</span>
+                <li>Vase <img class="img" src="download (3).jpg"> </li>
+                <span class="azure">Vase</span>
+                <span class="mobilenet"> Earthen Vase</span>
+            </ol>
+
+            <div class="col-sm-6 col-xs-12 main_div"><label>Webcam veiw -</label>
+                <div id="camera"></div>
+                <button onclick="Capture()" class="btn btn-info">Capture image`</button>
+            </div>
+
+            <div class="col-sm-6 col-xs-12 main_div"><label>Snapshot -</label>
+                <div id="result"></div>
+                <button onclick="Check1()" class="btn btn-success">Identify image using Mobilenet</button>
+                <button onclick="Check2()" class="btn btn-success">Identify image using Azure</button>
+            </div>
+        </center>
+
+        <div class="col-xs-12 footer_div">
+            <h3><img src="blub.gif"> <span id="object_name_azure"></span></h3>
+            <h3><img src="blub.gif"> <span id="object_name_identification"></span></h3>
+       
+
+
+        <script src="main.js"></script>
+    </section>
+
+</body>
+
+</html>
